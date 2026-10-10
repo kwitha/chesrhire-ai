@@ -1,0 +1,29 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Uploaded applicant CVs and private files
+backend/uploads/
+uploads/
+
+# Local databases and backups
+*.sqlite3
+*.db
+*.dump
+*.sql
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
